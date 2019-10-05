@@ -449,16 +449,16 @@ form label{
 input,
 select,
 textarea{
-    widows: 100%;
-    padding: 1rem;
+    width: 100%;
+    padding: 2rem;
     margin-bottom: 5px;
     border: none;
-    outline-color: #2f67cd;
+    outline-color:grey;
 }
 
-input[type="submit"]{
+input[type="enviar"]{
     width: initial;
-    background-color: #2f67cd;
+    background-color: #48bece;
     color: #eee;
     padding: 1rem 2rem;
     border-radius: .8rem;
@@ -467,9 +467,9 @@ input[type="submit"]{
 }
 
 
-input[type="submit"]:hover{
+input[type="enviar"]:hover{
     color: #221e3f;
-    background-color: #ffe838;
+    background-color: #553e91;
 }
 
 .copyright{
@@ -507,18 +507,18 @@ input[type="submit"]:hover{
 
 @keyframes pulse{
     0%{
-        box-shadow: 0,0,0,0 rgba(253, 87, 191, 0.99);
+        box-shadow: 0 0 0 0 rgba(84, 62, 145, 0.99);
     }
     70%{
-        box-shadow: 0,0,0,2rem rgba(253, 87, 191, 0);
+        box-shadow: 0 0 0 2rem rgba(84, 62, 145, 0);
     }
     100%{
-        box-shadow: 0,0,0,0 rgba(253, 87, 191, 0);
+        box-shadow: 0 0 0 0 rgba(84, 62, 145, 0);
     }
 
 }
 
-@media only screen and (max-width 414){
+@media only screen and (max-width: 414){
 
 }
 @media only screen and (min-width: 415px) and (max-width: 768px) {
