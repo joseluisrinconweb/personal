@@ -178,7 +178,7 @@ li{
     transform: rotate(-450deg) translateX(-.8rem);
 }
 
- .landing-text{
+.landing-text{
      position: absolute;
      top: 50%;
      left: 50%;
@@ -282,7 +282,7 @@ li{
 .habilidades h1{
     font-size: 2rem;
     text-transform: uppercase;
-    
+    letter-spacing: 2px;
     margin: 2rem -2px 2rem 0;
     color: black;
    
