@@ -231,6 +231,15 @@ li {
     margin-right: 5rem;
 }
 
+.imgtrabajos{
+    
+    width: 500px;
+}
+.icon {
+    margin-top: 7rem;
+    width: 50px;
+
+}
 .about-details {
     flex: 1;
 }
@@ -347,7 +356,7 @@ li {
     margin-top: 2.5rem;
     font-size: 1.5rem;
     text-transform: uppercase;
-    color: blue;
+    color: #2f67cd;
 }
 
 .portfolio-description .cta:hover {
