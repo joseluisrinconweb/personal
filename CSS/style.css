@@ -234,10 +234,12 @@ li {
 .imgtrabajos{
     
     width: 500px;
+    height: auto;
 }
 .icon {
     margin-top: 7rem;
-    width: 50px;
+    width: auto;
+    height: 60px;
 
 }
 .about-details {
